@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: ratings
-        image: 47/ratings
+        image: vfg27/ratings
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
