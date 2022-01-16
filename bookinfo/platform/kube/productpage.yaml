@@ -37,7 +37,7 @@ spec:
     spec:
       containers:
       - name: productpage
-        image: vfg27/productpage
+        image: vfg27/productpage:2.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
